@@ -12,34 +12,6 @@
     <lastmod>2017-04-22</lastmod>
   </url>
   <url>
-    <loc>http://hexagonkt.com/configuration.html</loc>
-    <lastmod>2016-04-13</lastmod>
-  </url>
-  <url>
-    <loc>http://hexagonkt.com/contribute.html</loc>
-    <lastmod>2016-04-13</lastmod>
-  </url>
-  <url>
-    <loc>http://hexagonkt.com/events.html</loc>
-    <lastmod>2016-04-13</lastmod>
-  </url>
-  <url>
-    <loc>http://hexagonkt.com/index.html</loc>
-    <lastmod>2016-04-13</lastmod>
-  </url>
-  <url>
-    <loc>http://hexagonkt.com/license.html</loc>
-    <lastmod>2016-04-13</lastmod>
-  </url>
-  <url>
-    <loc>http://hexagonkt.com/rest.html</loc>
-    <lastmod>2016-04-13</lastmod>
-  </url>
-  <url>
-    <loc>http://hexagonkt.com/scheduling.html</loc>
-    <lastmod>2016-04-13</lastmod>
-  </url>
-  <url>
     <loc>http://hexagonkt.com/serialization.html</loc>
     <lastmod>2016-04-13</lastmod>
   </url>
@@ -57,6 +29,38 @@
   </url>
   <url>
     <loc>http://hexagonkt.com/testing.html</loc>
+    <lastmod>2016-04-13</lastmod>
+  </url>
+  <url>
+    <loc>http://hexagonkt.com/configuration.html</loc>
+    <lastmod>2016-04-13</lastmod>
+  </url>
+  <url>
+    <loc>http://hexagonkt.com/contribute.html</loc>
+    <lastmod>2016-04-13</lastmod>
+  </url>
+  <url>
+    <loc>http://hexagonkt.com/events.html</loc>
+    <lastmod>2016-04-13</lastmod>
+  </url>
+  <url>
+    <loc>http://hexagonkt.com/getting_started.html</loc>
+    <lastmod>2016-04-13</lastmod>
+  </url>
+  <url>
+    <loc>http://hexagonkt.com/index.html</loc>
+    <lastmod>2016-04-13</lastmod>
+  </url>
+  <url>
+    <loc>http://hexagonkt.com/license.html</loc>
+    <lastmod>2016-04-13</lastmod>
+  </url>
+  <url>
+    <loc>http://hexagonkt.com/rest.html</loc>
+    <lastmod>2016-04-13</lastmod>
+  </url>
+  <url>
+    <loc>http://hexagonkt.com/scheduling.html</loc>
     <lastmod>2016-04-13</lastmod>
   </url>
 

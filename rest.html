@@ -3,6 +3,7 @@
 
 <html lang="en">
 
+
 <head>
   <meta charset="utf-8" />
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -16,41 +17,54 @@
   <meta name="generator" content="JBake" />
 
   <meta name="theme-color" content="#135AA1" />
-  <meta name="msapplication-navbutton-color" content="#135AA1" />
   <meta name="apple-mobile-web-app-status-bar-style" content="#135AA1" />
+  <meta name="msapplication-navbutton-color" content="#135AA1" />
+  <meta name="msapplication-config" content="/browserconfig.xml">
+  <meta name="msapplication-TileColor" content="#135AA1">
+  <meta name="msapplication-TileImage" content="apple-touch-icon.png">
 
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="mobile-web-app-capable" content="yes" />
 
-  <title>
-    Hexagon
-  </title>
+  <title>Hexagon</title>
 
-
-  <link
-    href="http://cdnjs.cloudflare.com/ajax/libs/bootswatch/3.3.7/paper/bootstrap.min.css"
-    rel="stylesheet" />
   <link
     rel="stylesheet"
-    href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    type="text/css" />
-  <link
-    href="css/base.css"
-    rel="stylesheet" />
-  <link
-    href="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css"
-    rel="stylesheet" />
+    href="http://cdnjs.cloudflare.com/ajax/libs/bootswatch/3.3.7/paper/bootstrap.min.css" />
+  <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
 
-  <link
-    rel="apple-touch-icon"
-    sizes="180x180"
-    href="apple-touch-icon.png" />
-  <link
-    rel="shortcut icon"
-    sizes="32x32"
-    href="favicon.ico" />
+  <link rel="stylesheet" href="css/base.css" />
+  <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css" />
+
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
+  <link rel="shortcut icon" sizes="32x32" href="favicon.ico" />
+
+
+  <!-- TODO -->
+  <link rel="icon" sizes="16x16 32x32 64x64" href="/img/favicon.ico">
+  <link rel="icon" type="image/png" sizes="196x196" href="/img/favicon-192.png">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@hexagon_kt">
+  <meta name="twitter:creator" content="@hexagon_kt">
+  <meta name="twitter:title" content="Hexagon - The atoms of your platform">
+  <meta name="twitter:description" content="">
+  <meta name="twitter:image" content="http://hexagonkt.com/apple-touch-icon.png">
+  <meta property="og:title" content="Hexagon - The atoms of your platform" />
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="http://hexagonkt.com" />
+  <meta property="og:image" content="http://hexagonkt.com/apple-touch-icon.png" />
+  <meta property="og:description" content="" />
+
+  <meta itemprop="name" content="Hexagon">
+  <meta itemprop="description" content="">
+  <meta itemprop="image" content="http://hexagonkt.com/apple-touch-icon.png">
+  <!-- TODO -->
+
 
   <link rel="author" href="/humans.txt" />
+  <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml" />
+  <link rel="canonical" href="http://hexagonkt.com/" />
 
   <!--[if lt IE 9]>
     <script src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
@@ -60,7 +74,6 @@
 
 <body onload="prettyPrint()">
   <div id="wrap">
-
 
 
     <!-- Fixed navbar -->
@@ -127,9 +140,9 @@
       </div>
     </div>
 
-    <div class="container">
 
-<h1>REST</h1>
+    <div class="container">
+      <h1><a href="#rest" name="rest">REST</a></h1>
 <pre><code>import com.hexagonkt.store.MongoIdRepository
 import com.hexagonkt.store.mongoDatabase
 import com.hexagonkt.serialization.parse
@@ -176,54 +189,58 @@ import java.net.URL
     private fun paramList (json: String?) = json?.parseList (Parameter::class) ?: error
 }
 </code></pre>
+    </div>
 
     <div id="push"></div>
   </div>
 
-  
-  <footer class="footer">
-    <div id="footerContent" class="container muted credit">
-      Made with <i class="fa fa-heart heart"></i> by <a href="http://there4.co">Juanjo Aguililla</a>
-      | Mixed with <a href="http://getbootstrap.com/">Bootstrap v3.3.7</a>
-      | Baked with <a href="http://jbake.org">JBake v2.5.0</a> |
-      <a
-        class="github-button"
-        href="https://github.com/hexagonkt/hexagon"
-        data-icon="octicon-star"
-        data-count-href="/hexagonkt/hexagon/stargazers"
-        data-count-api="/repos/hexagonkt/hexagon#stargazers_count">Star</a>
-      <a
-        class="github-button"
-        href="https://github.com/hexagonkt/hexagon"
-        data-icon="octicon-eye"
-        data-count-href="/hexagonkt/hexagon/watchers"
-        data-count-api="/repos/hexagonkt/hexagon#subscribers_count"
-        data-count-aria-label="# watchers on GitHub"
-        aria-label="Watch hexagonkt/hexagon on GitHub">Watch</a>
-      <a
-        class="github-button"
-        href="https://github.com/hexagonkt/hexagon/fork"
-        data-icon="octicon-git-branch"
-        data-count-href="/hexagonkt/hexagon/network"
-        data-count-api="/repos/hexagonkt/hexagon#forks_count">Fork</a>
-      <a
-        class="github-button"
-        href="https://github.com/hexagonkt/hexagon/issues"
-        data-icon="octicon-issue-opened"
-        data-count-api="/repos/hexagonkt/hexagon#open_issues_count">Issue</a>
-    </div>
-  </footer>
 
-  <!-- Javascript: Placed at the end of the document so the pages load faster -->
-  <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
-  <script src="http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <script src="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/highlight.min.js"></script>
-  <script src="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/languages/groovy.min.js"></script>
-  <script src="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/languages/gradle.min.js"></script>
-  <script src="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/languages/xml.min.js"></script>
-  <script src="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/languages/kotlin.min.js"></script>
-  <script>hljs.initHighlightingOnLoad();</script>
-  <!-- For Github links -->
-  <script async defer id="github-bjs" src="https://buttons.github.io/buttons.js"></script>
+<footer class="footer">
+  <div id="footerContent" class="container muted credit">
+    Made with <i class="fa fa-heart heart"></i> by <a href="http://there4.co">Juanjo Aguililla</a>
+    | Mixed with <a href="http://getbootstrap.com/">Bootstrap v3.3.7</a>
+    | Baked with <a href="http://jbake.org">JBake v2.5.1</a> |
+    <a
+      class="github-button"
+      href="https://github.com/hexagonkt/hexagon"
+      data-icon="octicon-star"
+      data-count-href="/hexagonkt/hexagon/stargazers"
+      data-count-api="/repos/hexagonkt/hexagon#stargazers_count">Star</a>
+    <a
+      class="github-button"
+      href="https://github.com/hexagonkt/hexagon"
+      data-icon="octicon-eye"
+      data-count-href="/hexagonkt/hexagon/watchers"
+      data-count-api="/repos/hexagonkt/hexagon#subscribers_count"
+      data-count-aria-label="# watchers on GitHub"
+      aria-label="Watch hexagonkt/hexagon on GitHub">Watch</a>
+    <a
+      class="github-button"
+      href="https://github.com/hexagonkt/hexagon/fork"
+      data-icon="octicon-git-branch"
+      data-count-href="/hexagonkt/hexagon/network"
+      data-count-api="/repos/hexagonkt/hexagon#forks_count">Fork</a>
+    <a
+      class="github-button"
+      href="https://github.com/hexagonkt/hexagon/issues"
+      data-icon="octicon-issue-opened"
+      data-count-api="/repos/hexagonkt/hexagon#open_issues_count">Issue</a>
+  </div>
+</footer>
+
+<!-- Javascript: Placed at the end of the document so the pages load faster -->
+<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/highlight.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/languages/groovy.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/languages/gradle.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/languages/xml.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/languages/kotlin.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+<!-- For Github links -->
+<script async defer id="github-bjs" src="https://buttons.github.io/buttons.js"></script>
 </body>
+
 </html>
+
